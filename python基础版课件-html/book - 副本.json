@@ -1,0 +1,64 @@
+{
+    "title" : "Python课程讲义",
+    "description" : "Python学院",
+    "author" : "python",
+    "generator": "site",
+    "-language" : "zh-hans",
+    "-links" : {
+        "sidebar" : {
+            "Home" : "http://www.treenewbee.top"
+        }
+    },
+   "plugins": [
+        "-sharing",
+        "-advanced-emoji",
+        "-github",
+        "-ace",
+        "-emphasize",
+        "-katex",
+        "-anchors",
+        "-include-codeblock",
+        "-mermaid",
+        "-sectionx",
+        "-expandable-chapters",
+        "-codeblock-filename",
+        "-baidu",
+        "splitter",
+        "-sitemap@1.0.2",
+        "-donate",
+        "-local-video",
+        "-toc",
+        "-edit-link",
+        "toggle-chapters"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "gitbookuse"
+        },
+        "github": {
+            "url": "https://github.com/dododream"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord": ["gitbook-use"]
+         },
+
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+             "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+         "edit-link": {
+                "base": "https://github.com/dododream/edit",
+                "label": "Edit This Page"
+         }
+
+    }
+}
